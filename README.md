@@ -1,4 +1,4 @@
-# rama_dairy
+# Vue js Practice Project
 
 ## Project setup
 ```
