@@ -16,7 +16,8 @@
             label="E-mail"
             required
           ></v-text-field>
-          <v-btn color="success" class="mr-4" @click="submit"> Validate </v-btn>
+          <v-btn color="primary" class="mr-4" @click="submit"> Validate </v-btn>
+          <v-btn color="primary" text @click="register"> Register </v-btn>
         </v-form>
       </v-col>
     </v-row>
