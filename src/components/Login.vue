@@ -16,26 +16,26 @@
             label="E-mail"
             required
           ></v-text-field>
-          <v-btn color="primary" class="mr-4" @click="showModal=true"> Validate </v-btn>
+          <v-btn color="primary" class="mr-4" @click="showModal = true">
+            Validate
+          </v-btn>
           <v-btn color="primary" text @click="register"> Register </v-btn>
         </v-form>
       </v-col>
     </v-row>
-    <custom-modal :value="showModal">    
-    </custom-modal>
+    <custom-modal :value="showModal"> </custom-modal>
   </v-container>
 </template>
 <script>
-import CustomModal from "./CustomComponent/CustomModal.vue"
+import CustomModal from "./CustomComponent/CustomModal.vue";
 export default {
-  components:{
-    CustomModal
+  components: {
+    CustomModal,
   },
- data() {
-   return {
-       showModal: false
-   }
- }
-  
-}
+  data() {
+    return {
+      showModal: false,
+    };
+  },
+};
 </script>
