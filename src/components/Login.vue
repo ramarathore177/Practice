@@ -4,18 +4,18 @@
       <v-col cols="5">
         <v-form ref="form" v-model="valid" lazy-validation>
           <v-text-field
-            v-model="name"
-            :rules="nameRules"
-            label="Name"
-            required
-          ></v-text-field>
-
-          <v-text-field
             v-model="email"
             :rules="emailRules"
             label="E-mail"
             required
           ></v-text-field>
+          <v-text-field
+            v-model="name"
+            :rules="nameRules"
+            label="Password"
+            required
+          ></v-text-field>
+
           <v-btn color="primary" class="mr-4" @click="showModal = true">
             Validate
           </v-btn>
